@@ -1,0 +1,137 @@
+#clock1 {
+    position: relative;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    background: url() no-repeat;
+    background-size: 100%;
+   /* background-color: rgb(238, 238, 98); */
+   
+}
+.Dot h1{
+    position: absolute;
+    left: 350px;
+    top: 25px;
+}
+.Dot h2{
+    position: absolute;
+    left: 406px;
+    top: 91px;
+    font-family: 33px;
+}
+.Dot h3{
+    position: absolute;
+    left: 422px;
+    top: 276px;
+    font-family: 33px;
+}
+.Dot h4{
+    position: absolute;
+    left: 350px;
+    top: 356px;
+    font-family: 33px;
+}
+.Dot1 h1{
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+.Dot1 h2{
+    position: absolute;
+    left: 52px;
+    top: 91px;
+    font-family: 33px;
+}
+.Dot1 h3{
+    position: absolute;
+    left: 49px;
+    top: 276px;
+    font-family: 33px;
+}
+.Dot1 h4{
+    position: absolute;
+    left: 113px;
+    top: 356px;
+    font-family: 33px;
+}
+
+
+#clock{
+    background-color: rgb(245, 232, 240);
+    height: 620px;
+}
+ img{
+width: 500px;
+height: 500px;
+border-radius: 100%;
+border: 2px solid rgb(2, 1, 9);
+
+}
+h1{
+    position: absolute;
+    left: 230px;
+    top: -9px;
+}
+
+h2{
+    position: absolute;
+    left: 242px;
+    top: 415px;
+    font-size: 39px;
+}
+h3{
+    position: absolute;
+    left: 15px;
+    top:186px;
+    font-size: 39px;
+}
+h4{
+    position: absolute;
+    left: 457px;
+    top: 177px;
+    font-size: 35px;
+}
+
+.point{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    position: absolute;
+    left: 224px;
+    top: 231px;
+}
+
+ 
+#hour {
+    
+    width: 3.6%;
+    height: 28%;
+    position: absolute;
+    top: 22%;
+    left: 46.85%;
+   
+}
+ 
+#minute {
+    width: 3.6%;
+    height: 33%;
+    top: 16%;
+    left: 46.9%;
+    
+}
+ 
+#second {
+    width: 2%;
+    height: 40%;
+    top: 9%;
+    left: 48.25%;
+  
+}
+#hour,#minute,#second{
+opacity: 0.8;
+position: absolute;
+background: black;
+border-radius: 10px;
+transform-origin: bottom;
+}
